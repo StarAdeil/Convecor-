@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Конвектор</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div id="convert">
+		<form action="post">
+			<label for="typeOne">Выберете единицу измерения :</label>
+			<select name="typeOne" id="typeOne">
+			</select>
+			<label for="countValue">Введите растояние :</label>
+			<input type="number" id="countValue" value="1">
+			<label for="typeOne">Ковертировать в :</label>
+			<select name="convertTo" id="convertTo">
+			</select>
+			<br>
+			<div id="resButton" class="resButton">Расчитать</div>
+			<br>
+			<div id="res">Результат</div>
+			<br>
+			<!--СОЗДАНИЕ НОВОЙ ВЕЛЕЧЕННЫ-->
+			<label for="nameNewType">Название новой велечены :</label>
+			<input type="text" name="nameNewType" id="nameNewType">
+			<label for="haveType">Выбирите единицу измерения из списка :</label>
+			<select name="haveType" id="haveType">
+			</select>
+			<label for="newTypeCount">Впишите значение новой единицы</label>
+			<input type="number" name="newTypeCount" id="newTypeCount">
+			<div id="resButton2" class="resButton">Создать</div>
+		</form>
+	</div>
+	<script src="js/index.js"></script>
+</body>
+</html>

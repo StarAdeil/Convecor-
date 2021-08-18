@@ -1,0 +1,14 @@
+.resButton{
+	font-size: 18px;
+	padding: 5px;
+	margin:10px;
+	border:solid 2px lightblue;
+	width: 150px;
+	text-align: center;
+	cursor: pointer;
+}
+.resButton:hover{
+	background-color: lightblue;
+	transition:1s;
+	color:white;
+}
